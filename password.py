@@ -34,7 +34,10 @@ def replaceLetters(word):
         word = word.replace("l", "|")
 
     if "s" in word:
-        word = word.replace("s", "$")   
+        word = word.replace("s", "$")  
+
+    if "o" in word:
+        word = word.replace("o", "0") 
 
     return word
     
